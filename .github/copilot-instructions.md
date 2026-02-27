@@ -1,21 +1,38 @@
-- [x] Verify that the copilot-instructions.md file in the .github directory is created.
+# Copilot Instructions — kindpath-collective-website
 
-- [x] Clarify Project Requirements
+## What This Repository Is
 
-- [x] Scaffold the Project
+kindpath-collective-website is the public-facing website for KindPath Collective — the world's introduction to KindPath. Built with Next.js (App Router), TypeScript, and Tailwind CSS.
 
-- [x] Customize the Project
+KINDFIELD foundation: https://github.com/S4mu3lD4v1d/KindField
 
-- [x] Install Required Extensions
+## Stack
 
-- [x] Compile the Project
+- **Framework:** Next.js (App Router) — `app/` directory
+- **Language:** TypeScript (strict)
+- **Styling:** Tailwind CSS
+- **Linting:** ESLint (`eslint.config.js`)
+- **Branch:** `master`
+- **Node:** 20 LTS
 
-- [x] Create and Run Task
+## Code Standards
 
-- [x] Launch the Project
+- TypeScript strictly — no `any` types
+- Tailwind CSS for all styling
+- Server components by default — `'use client'` only when needed
+- ESLint clean — `npm run lint` must pass
+- Build must pass — `npm run build` must succeed
 
-- [x] Ensure Documentation is Complete
+## Content Principles
 
-- Work through each checklist item systematically.
-- Keep communication concise and focused.
-- Follow development best practices.
+- Clear, warm, accessible language
+- KindPath terminology explained, not assumed
+- Relational and ecological values (from KINDFIELD) reflected throughout
+
+## What Not To Do
+
+- No `any` TypeScript types
+- No custom CSS when Tailwind suffices
+- Do not break the build
+- Do not expose environment variables client-side
+- Do not use `main` — default branch is `master`
