@@ -5,38 +5,38 @@ import ButtonCard from './components/ButtonCard'
 import PillButton from './components/PillButton'
 
 export const metadata: Metadata = {
-  title: 'KindPath Collective | KindEarth Platform',
+  title: 'KindPath Collective | For people, families and communities',
 }
 
 export default function Home() {
   const tools = [
     {
-      title: 'KindEarth Platform',
-      description: 'Modelling policy stress, drift, and ecological constraint (scenario exploration, not prediction).',
-      href: '/tools/kindearth-platform',
+      title: 'Life-Field Tool',
+      description: 'Helps people and practitioners map where things are now versus where they want to be — grounded in real circumstances, not systems language.',
+      href: '/tools/life-field-tool',
     },
     {
-      title: 'Pilot Operations Tools',
-      description: 'Scoping, tracking, tapering, and reporting.',
-      href: '/tools/pilot-operations',
+      title: 'KindPath Compass',
+      description: 'A practice aid for compassionate listening — prompts and frameworks for support workers, counsellors, and community practitioners.',
+      href: '/tools/compass',
     },
     {
       title: 'Community Digital Libraries',
-      description: 'Local data ownership, provenance, changelogs.',
+      description: 'Communities own their own data. Local knowledge stays local — with provenance, context, and the ability to say no.',
       href: '/tools/community-digital-libraries',
     },
     {
-      title: 'Life-Field Tool',
-      description: 'Current reality vs ideal reality mapping for pilots and practitioners.',
-      href: '/tools/life-field-tool',
+      title: 'Pilot Operations',
+      description: 'Scoping and running community pilots that are measurable, reversible, and built around the people in them — not around institutions.',
+      href: '/tools/pilot-operations',
     },
   ]
 
   const metrics = [
-    { title: 'Policy Stress', href: '/platform/policy-stress' },
-    { title: 'Ecological Constraint', href: '/platform/ecological-constraint' },
-    { title: 'Trust Liquidity', href: '/platform/trust-liquidity' },
-    { title: 'Drift Metrics', href: '/platform/drift-metrics' },
+    { title: 'Relationship Health', href: '/platform/trust-liquidity' },
+    { title: 'Community Stress', href: '/platform/policy-stress' },
+    { title: 'Ecological Wellbeing', href: '/platform/ecological-constraint' },
+    { title: 'System Drift', href: '/platform/drift-metrics' },
   ]
 
   return (
@@ -46,10 +46,10 @@ export default function Home() {
           Pilot Program Open
         </span>
         <h1 className="mt-6 text-4xl leading-tight font-semibold text-[color:var(--kp-ink)] md:text-5xl md:leading-snug [text-wrap:balance]">
-          KindPath Collective is building KindEarth — a digital platform for ethical social-policy forecasting and community-led pilots.
+          For people, families and communities navigating hard circumstances.
         </h1>
         <p className="mt-5 text-lg text-[color:var(--kp-ink-soft)] md:text-xl">
-          KindEarth helps communities and institutions see upstream pressure early, restore coherence, and run pilots that are measurable, reversible, and sovereignty-first.
+          KindPath builds tools for practitioners, communities and families — to find clarity, restore connection, and move forward. Technology serves the relationship, not the other way round.
         </p>
         <div className="mt-8 flex flex-col items-center justify-center gap-3 md:flex-row">
           <a
@@ -62,7 +62,7 @@ export default function Home() {
             href="/platform"
             className="btn-secondary"
           >
-            View the Platform
+            See What We Build
           </a>
         </div>
       </section>
@@ -80,10 +80,10 @@ export default function Home() {
               </div>
               <div className="text-center">
                 <h2 className="text-2xl sm:text-3xl font-semibold text-[color:var(--kp-ink)]">
-                  What we&apos;re building
+                  Tools built around people
                 </h2>
                 <p className="mt-2 text-sm text-[color:var(--kp-ink-muted)]">
-                  A suite of tools for sovereignty, clarity, and ethical forecasting.
+                  For practitioners, community workers, and the families they support.
                 </p>
               </div>
               <div className="hidden sm:flex flex-col items-center gap-2">
@@ -112,12 +112,12 @@ export default function Home() {
         <GlassPanel className="p-8 sm:p-10">
           <div className="grid gap-10 md:grid-cols-[1.1fr_1fr] md:items-center">
             <div>
-              <h2 className="text-3xl font-semibold text-[color:var(--kp-ink)] md:text-4xl">Making Upstream Conditions Legible</h2>
+              <h2 className="text-3xl font-semibold text-[color:var(--kp-ink)] md:text-4xl">Seeing What&apos;s Happening Before It Becomes a Crisis</h2>
               <p className="mt-4 text-base text-[color:var(--kp-ink-soft)]">
-                KindPath exists because systems often assume demand is linear — but in real life, stress compounds and costs go convex.
+                Families and communities under pressure don&apos;t fail suddenly — they drift. Relationships fray. Trust erodes. The conditions that make things hard are often visible long before they become urgent.
               </p>
               <p className="mt-3 text-base text-[color:var(--kp-ink-soft)]">
-                KindEarth is designed to make upstream conditions legible: drift, contradiction accumulation, ecological constraint, and trust liquidity — before collapse forces expensive crisis responses.
+                KindPath&apos;s tools help communities and the people who support them see that drift early — and respond thoughtfully, not reactively.
               </p>
             </div>
             <div className="grid grid-cols-2 gap-3">
@@ -169,7 +169,7 @@ export default function Home() {
       <section id="pilot" className="max-w-6xl mx-auto px-4 py-14 text-center">
         <h3 className="text-2xl font-semibold text-[color:var(--kp-ink)]">Ready to explore ethical pilots?</h3>
         <p className="mt-3 text-base text-[color:var(--kp-ink-soft)]">
-          If you&apos;re exploring pilots, evaluation, collaboration, or partnership — join the pilot interest list.
+          If you&apos;re supporting families or communities and want to explore what a KindPath pilot could look like — reach out.
         </p>
         <div className="mt-6 flex justify-center">
           <a
